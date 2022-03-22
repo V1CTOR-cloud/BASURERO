@@ -1,0 +1,20 @@
+Instalaciones: 
+Visual Studio Code
+Node js
++ chocolatey
+
+Cuentas usadas en el navegador: 
+    Florida Oberta
+    Gmail y servicios de google
+    Outlook correo electronico del instituto
+
+Video actual : Curso actualización Velneo 2015 Jornada 2 min 2:25:36
+
+Mailgun para envío de correos y tal
+
+Usar glassDoor
+
+https://techclub.tajamar.es/enviar-emails-en-react/
+
+Precio de desarrollo de una app móvil: 600€ - 6.000€
+https://aulacm.com/precio-desarrollar-app-aplicacion-movil/
