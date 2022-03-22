@@ -1,0 +1,1118 @@
+/*  --------------------------------------------------------------------------------
+    VERSION: 26.0
+    AUTOR: VELNEO
+    ULTIMA MODIFICACION: 01 Octubre 2019
+
+    INDICE
+        - QCalendarWidget       CALENDARIO
+        - QCheckBox             BOTON CHECK
+        - QComboBox             COMBOBOX
+        - QDateEdit             CAJA DE EDICIÓN DE CAMPO FECHA MODO DE EDICIÓN FECHA
+        - QDateTime             CAJA DE VISUALIZACIÓN CAMPO FECHA Y HORA
+        - QDateTimeEdit         CAJA DE EDICIÓN DE CAMPO FECHA Y HORA
+        - QDialog               VENTANA EN CUADRO DE DIÁLOGO
+        - QDockWidget           DOCK
+        - QDoubleSpinBox        CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON BOTONES ARRIBA Y ABAJO
+        - QFrame                MARCO
+        - QGroupBox             CAJA DE GRUPO
+        - QHeaderView           CABECERA DE REJILLAS Y ÁRBOLES
+        - QLabel                ETIQUETA DE TEXTO
+        - QLineEdit             CAJA DE EDICIÓN DE TEXTO EN UNA LINEA
+        - QMainWindow           VENTANA PRINCIPAL
+        - QMenu                 MENU CONTEXTUAL
+        - QMenuBar              BARRA DE MENU (Solo afecta a Windows)
+        - QMessageBox           VENTANA DE MENSAJE
+        - QNumberSpinBox        CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON BOTONES ARRIBA Y ABAJO
+        - QProgressBar          BARRA DE PROGRESO
+        - QPushButton           BOTÓN
+        - QRadioButton          BOTÓN DE RADIO
+        - QScrollBar            BARRA DE SCROLL VERTICAL Y HORIZONTAL
+        - QSlider               DESLIZADOR
+        - QSpinBox              CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON UN BOTÓN
+        - QSplitter             SPLITTER
+        - QStatusBar            BARRA DE ESTADO
+        - QTabWidget            SEPARADOR DE FORMULARIOS (PESTAÑAS)
+        - QTableView            REJILLA
+        - QTextEdit             CAJA DE EDICIÓN DE TEXTO MULTI-LINEA
+        - QTimeEdit             CAJA DE EDICIÓN DE HORA
+        - QTitanGrid            REJILLA AVANZADA
+        - QToolBar              BARRA DE HERRAMIENTAS
+        - QTooltip              TOOLTIP
+        - QTreeView             QTREEVIEW - ARBOL VISOR Y MENU ARBOLADO
+        - QWidget#qt_calendar   CALENDARIO
+        - VBoundFieldEdit       CAJA DE EDICIÓN DE CAMPO PUNTERO A MAESTRO
+        - VDateLineEdit         CAJA DE EDICIÓN DE CAMPO FECHA MODO DE EDICIÓN ALFANUMÉRICO
+        - VCFootView            PIE DE REJILLA
+        - VListBox              LISTBOX
+    -------------------------------------------------------------------------------- */
+
+
+/*  --------------------------------------------------------------------------------
+    QCheckBox - BOTÓN CHECK
+    QRadioButton - BOTÓN DE RADIO
+    -------------------------------------------------------------------------------- */
+
+QCheckBox,
+QRadioButton {
+    color: #3F3F3F;
+}
+
+QCheckBox:hover,
+QRadioButton:hover {
+    color: #461154;
+}
+
+QCheckBox:focus,
+QRadioButton:focus {
+    color: #3F51B5;
+}
+
+QCheckBox:disabled,
+QRadioButton:disabled {
+    color: #3F3F3F;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QComboBox - COMBOBOX
+        QDateEdit - CAJA DE EDICIÓN DE CAMPO FECHA MODO DE EDICIÓN FECHA
+        QDateTime - CAJA DE VISUALIZACIÓN CAMPO FECHA Y HORA
+        QDateTimeEdit - CAJA DE EDICIÓN DE CAMPO FECHA Y HORA
+        QDoubleSpinBox - CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON BOTONES ARRIBA Y ABAJO
+        QNumberSpinBox - CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON BOTONES ARRIBA Y ABAJO
+        QSpinBox - CAJA DE EDICIÓN DE CAMPO NUMÉRICO CON UN BOTÓN
+        QTimeEdit - CAJA DE EDICIÓN DE HORA
+        VBoundFieldEdit - CAJA DE EDICION DE CAMPO PUNTERO A MAESTRO
+        VDateLineEdit - CAJA DE EDICIÓN DE CAMPO FECHA MODO DE EDICIÓN ALFANUMÉRICO
+        VListBox - LISTBOX
+        -------------------------------------------------------------------------------- */
+
+QComboBox,
+QDateEdit,
+VDateLineEdit,
+QDateTime,
+QDateTimeEdit,
+QDoubleSpinBox,
+QNumberSpinBox,
+QSpinBox,
+QTimeEdit,
+VBoundFieldEdit,
+vBoundFieldEditBrowser,
+VDateLineEdit,
+VListBox {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #3F3F3F;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 0px;
+    selection-background-color: #DFDFDF;
+    selection-color: #3F51B5;
+}
+
+QComboBox:hover,
+QDateEdit:hover,
+VDateLineEdit:hover,
+QDateTime:hover,
+QDateTimeEdit:hover,
+QDoubleSpinBox:hover,
+QNumberSpinBox:hover,
+QSpinBox:hover,
+QTimeEdit:hover,
+VBoundFieldEditBrowser:hover,
+VBoundFieldEdit:hover,
+VListBox:hover {
+    border: 1px solid #3F3F3F;
+}
+
+QComboBox:focus,
+QDateEdit:focus,
+VDateLineEdit:focus,
+QDateTime:focus,
+QDateTimeEdit:focus,
+QDoubleSpinBox:focus,
+QNumberSpinBox:focus,
+QSpinBox:focus,
+QTimeEdit:focus,
+VBoundFieldEditBrowser:focus,
+VBoundFieldEdit:focus,
+VListBox:focus {
+    border: 1px solid #3F51B5;
+}
+
+QComboBox:disabled,
+QDateEdit:disabled,
+VDateLineEdit:disabled,
+QDateTime:disabled,
+QDateTimeEdit:disabled,
+QDoubleSpinBox:disabled,
+QNumberSpinBox:disabled,
+QSpinBox:disabled,
+QTimeEdit:disabled,
+VBoundFieldEditBrowser:disabled,
+VBoundFieldEdit:disabled,
+VListBox:disabled {
+    background-color: #FFFFFF;
+    color: #3F3F3F;
+}
+
+QDateEdit::up-button,
+VDateLineEdit::up-button,
+QDateTime::up-button,
+QDateTimeEdit::up-button,
+QTimeEdit::up-button,
+VBoundFieldEditBrowser::up-button,
+VBoundFieldEdit::up-button {
+    border: none;
+    image: url($sysCacheClientPath/ARR.png);
+}
+
+QDateEdit::down-button,
+VDateLineEdit::down-button,
+QDateTime::down-button,
+QDateTimeEdit::down-button,
+QTimeEdit::down-button,
+VBoundFieldEditBrowser::down-button,
+VBoundFieldEdit::down-button {
+    border: none;
+    image: url($sysCacheClientPath/ABA.png);
+}
+
+QComboBox::drop-down,
+QDateEdit::drop-down,
+VDateLineEdit::drop-down,
+QDateTime::drop-down,
+QDateTimeEdit::drop-down,
+VBoundFieldEditBrowser::drop-down,
+VBoundFieldEdit::drop-down,
+QTimeEdit::drop-down {
+    border: none;
+    image: url($sysCacheClientPath/ABA.png);
+    width: 13px;
+}
+
+
+/* EN PRINCIPIO NO AFECTAN */
+
+QNumberSpinBox:up-button,
+QDoubleSpinBox:up-button,
+QSpinBox:up-button {
+    border: none;
+    image: url($sysCacheClientPath/ARR.png);
+}
+
+QNumberSpinBox:down-button,
+QDoubleSpinBox:down-button,
+QSpinBox:down-button {
+    border: none;
+    image: url($sysCacheClientPath/ABA.png);
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QDockWidget - DOCK
+        -------------------------------------------------------------------------------- */
+
+QDockWidget {
+    color: transparent;
+    font-size: 10px;
+    min-width: 10px;
+    width: 210px;
+}
+
+QDockWidget::title {
+    background: #FFFFFF;
+    color: #808080;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+QDockWidget::close-button {
+    image: none;
+    position: absolute;
+    subcontrol-origin: margin;
+    subcontrol-position: top right;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+}
+
+QDockWidget::float-button {
+    image: none;
+    position: absolute;
+    subcontrol-origin: margin;
+    subcontrol-position: top right;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 0px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QFrame - MARCO
+        -------------------------------------------------------------------------------- */
+
+QFrame {
+    background: #FFFFFF;
+    border: 0px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QGroupBox - CAJA DE GRUPO
+        -------------------------------------------------------------------------------- */
+
+QGroupBox {
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+QGroupBox::title {
+    color: #3F3F3F;
+    padding-top: -5px;
+    padding-left: 5px;
+    subcontrol-origin: margin;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QHeaderView - CABECERA DE REJILLAS Y ARBOLES
+        -------------------------------------------------------------------------------- */
+
+QHeaderView::section:horizontal {
+    background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #3F3F3F;
+    border-right: 5px solid transparent;
+    color: #3F3F3F;
+    font-weight: bold;
+    margin-top: 10px;
+    min-height: 20px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QLabel - ETIQUETA DE TEXTO
+        -------------------------------------------------------------------------------- */
+
+QLabel {
+    background-color: transparent;
+    color: #808080;
+    font-size: 11px;
+}
+
+
+/* TITULOS DE LOS FORMULARIOS Y MENUS */
+
+QLabel#TXT_TIT {
+    font-size: 24px;
+}
+
+QLabel#EMP {
+    font-size: 16px;
+}
+
+QLabel#USR {
+    font-size: 12px;
+}
+
+
+/* MENSAJE ERROR */
+
+QLabel#NAME_VAC,
+QLabel#EML_ERR {
+    alignement: right;
+    background: transparent;
+    color: #E27249;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-left: -1px;
+    padding-top: 1px;
+}
+
+
+/* MENSAJE DUPLICADO*/
+
+QLabel#NAME_DUP,
+QLabel#EML_DUP {
+    alignement: right;
+    background: transparent;
+    color: #6388C1;
+    font-size: 10px;
+    padding-top: 1px;
+    text-transform: uppercase;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QLineEdit - CAJA DE EDICIÓN DE TEXTO EN UNA LINEA
+        QTextEdit - CAJA DE EDICIÓN DE TEXTO MULTI-LINEA
+        -------------------------------------------------------------------------------- */
+
+QLineEdit,
+QTextEdit {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #3F3F3F;
+    height: 30px;
+    padding-left: 2px;
+    selection-background-color: #DFDFDF;
+    selection-color: #3F51B5;
+}
+
+QLineEdit:hover,
+QTextEdit:hover {
+    border: 1px solid #3F3F3F;
+}
+
+QLineEdit:focus,
+QTextEdit:focus {
+    border: 1px solid #3F51B5;
+}
+
+QLineEdit:disabled,
+QTextEdit:disabled {
+    background-color: #FFFFFF;
+    color: #3F3F3F;
+}
+
+
+/* CONTROL DE EDICIÓN DE TEXTOS A BUSCAR EN MENUS */
+
+QLineEdit#TXT_BUS {
+    qproperty-placeholderText: 'Texto a buscar';
+}
+
+
+/* FORMULARIO ALTA CONTACTO > TEXTO EDIT NOMBRE Y NOMBRE COMERCIAL */
+
+QLineEdit#NAME_CON {
+    qproperty-placeholderText: 'Nombre contacto';
+    qproperty-text: 'Nombre contacto';
+}
+
+QLineEdit#NOM_COM {
+    margin-left: 10px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QMainWindow - VENTANA PRINCIPAL
+        -------------------------------------------------------------------------------- */
+
+QMainWindow {
+    background: #FFFFFF;
+    border: 0px;
+}
+
+QMainWindow::separator {
+    background: #FFF;
+    border-left: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    height: 5px;
+    width: 5px;
+}
+
+QMainWindow::separator:hover {
+    background: #CECECE;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QMenu - MENU CONTEXTUAL
+        -------------------------------------------------------------------------------- */
+
+QMenu {
+    background-color: #FFF;
+    border: 1px solid #CECECE;
+    color: #333333;
+    margin: 0px;
+    padding: 5px;
+}
+
+QMenu::item {
+    border: 1px solid transparent;
+    margin: 1px;
+    padding: 5px 30px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #CECECE;
+    color: #000;
+}
+
+QMenu::separator {
+    background-color: #CECECE;
+    height: 1px;
+    margin: 0px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QMenuBar - BARRA DE MENU (Solo afecta a Windows)
+        -------------------------------------------------------------------------------- */
+
+QMenuBar {
+    background-color: #FFF;
+    border-bottom: 1px solid #CECECE;
+    min-height: 20px;
+}
+
+QMenuBar::item:selected {
+    background-color: #CECECE;
+    color: #000;
+}
+
+QMenuBar::item:hover {
+    background: #333333;
+    color: #FFF;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QMessageBox - VENTANA DE MENSAJE
+        QDialog - VENTANA EN CUADRO DE DIÁLOGO
+        -------------------------------------------------------------------------------- */
+
+QMessageBox,
+QDialog {
+    background-color: #FFF;
+}
+
+QMessageBox QPushButton {
+    min-width: 90px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QProgressBar - BARRA DE PROGRESO
+        -------------------------------------------------------------------------------- */
+
+QProgressBar {
+    background-color: #FFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    color: #3F3F3F;
+    height: 30px;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #C5CAE9;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QPushButton - BOTÓN
+        -------------------------------------------------------------------------------- */
+
+QPushButton {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #3F3F3F;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: upercase;
+    width: 90;
+    qproperty-iconSize: 18px;
+}
+
+QPushButton:hover {
+    border: 1px solid #3F3F3F;
+}
+
+QPushButton:focus {
+    border: 1px solid #3F51B5;
+    color: #3F3F3F;
+}
+
+QPushButton:pressed {
+    border: 1px solid #3F51B5;
+    color: #3F3F3F;
+}
+
+QPushButton:disabled {
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+QPushButton::menu-indicator {
+    image: none;
+    width: 0px;
+}
+
+
+/* BOTÓN ACEPTAR */
+
+QPushButton#BTN_ACE {
+    background-color: #3F51B5;
+    color: #FFFFFF;
+}
+
+QPushButton:hover#BTN_ACE {
+    background-color: #3F51B5;
+    color: #FFFFFF;
+}
+
+QPushButton:focus#BTN_ACE {
+    background-color: #461154;
+    color: #FFFFFF;
+}
+
+QPushButton:pressed#BTN_ACE {
+    background-color: #461154;
+    color: #FFFFFF;
+}
+
+QPushButton:disabled#BTN_ACE {
+    background-color: #3F3F3F;
+    border: 1px solid #3F3F3F;
+    color: #808080;
+}
+
+
+/* BOTÓN AMPLIAR, BOTÓN BUSCAR, BOTÓN MENU y BOTÓN REDUCIR */
+
+QPushButton#BTN_AMP,
+QPushButton#BTN_AYU,
+QPushButton#BTN_BUS,
+QPushButton#BTN_MEN,
+QPushButton#BTN_RED {
+    border-radius: 0px;
+    qproperty-iconSize: 18px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QScrollBar - BARRA DE SCROLL VERTICAL Y HORIZONTAL
+        -------------------------------------------------------------------------------- */
+
+QScrollBar:vertical {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 12px;
+}
+
+QScrollBar:horizontal {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    height: 12px;
+}
+
+QScrollBar:vertical:hover {
+    background: #FFFFFF;
+}
+
+QScrollBar:horizontal:hover {
+    background: #FFFFFF;
+}
+
+QScrollBar::handle:vertical {
+    background: #DFDFDF;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    min-height: 90px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #DFDFDF;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    min-width: 90px;
+}
+
+QScrollBar::handle:hover {
+    background: #808080;
+    border: 2px solid transparent;
+}
+
+QScrollBar::add-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::sub-line:vertical {
+    background: none;
+    border: none;
+}
+
+QScrollBar::add-line:horizontal {
+    background: none;
+    border: none;
+}
+
+QScrollBar::sub-line:horizontal {
+    background: none;
+    border: none;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QScrollBar - Recuadro de intersección entre las scrollbar horizontal y vertical
+        -------------------------------------------------------------------------------- */
+
+QAbstractScrollArea::corner {
+    background: transparent;
+    border: transparent;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QSlider - DESLIZADOR
+        -------------------------------------------------------------------------------- */
+
+QSlider {
+    background: transparent;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QSplitter - SPLITTER
+        -------------------------------------------------------------------------------- */
+
+QSplitter {
+    background: transparent;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QStatusBar - BARRA DE ESTADO
+        -------------------------------------------------------------------------------- */
+
+QStatusBar {
+    background-color: #FFFFFF;
+    border-top: 1px solid #DFDFDF;
+    qproperty-visible: false;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QTabWidget - SEPARADOR DE FORMULARIOS (Pestañas)
+        -------------------------------------------------------------------------------- */
+
+QTabWidget::pane {
+    border-top: 1px solid #3F3F3F;
+    margin: 0px;
+    top: 10px;
+}
+
+QTabWidget::tab-bar {
+    left: 10px;
+    min-width: 10px;
+    right: 10px;
+    top: 10px;
+}
+
+QTabBar::tab {
+    background-color: #FFFFFF;
+    color: #808080;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+QTabBar::tab:hover {
+    border-top: 1px solid #DFDFDF;
+}
+
+QTabBar::tab:selected {
+    color: #3F51B5;
+    border-bottom: 2px solid #3F51B5;
+}
+
+QTabBar::close-button {
+    image: url($sysCacheClientPath/CRR.png);
+    margin: 3px;
+}
+
+QTabBar::scroller {
+    padding-top: 10px;
+    width: 15px;
+}
+
+QTabBar QToolButton::left-arrow {
+    image: url($sysCacheClientPath/IZQ.png);
+    width: 15px;
+}
+
+QTabBar QToolButton::right-arrow {
+    image: url($sysCacheClientPath/DER.png);
+    width: 15px;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QTableView - REJILLA
+        VCFootView - PIE DE REJILLA
+        -------------------------------------------------------------------------------- */
+
+
+/* Se puede personalizar la fuente del cuerpo de una rejilla
+    únicamente cuando ésta tiene asignada la fuente sistema(normal)
+     y el color del texto es de sistema (es decir, no se ha modificado el valor por defecto de la propiedad) */
+
+
+/* CABECERA DE REJILLA */
+
+QTableView {
+    alternate-background-color: transparent;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #808080;
+    font-weight: normal;
+    gridline-color: transparent;
+    min-height: 30px;
+    selection-background-color: #DFDFDF;
+    selection-color: #3F51B5;
+    qproperty-showGrid: false;
+}
+
+QTableView QTableCornerButton::section {
+    background-color: transparent;
+    border: 0px;
+}
+
+QTableView::item:focus {
+    min-height: 30px;
+    selection-background-color: #DFDFDF;
+    selection-color: #3F51B5;
+}
+
+
+/* PIE DE REJILLA */
+
+VCFootView {
+    background: transparent;
+    border: none;
+    border-right: 5px solid transparent;
+    color: #3F3F3F;
+    min-height: 30px;
+}
+
+VCFootView::section:active {
+    background: transparent;
+    border: none;
+    border-right: 5px solid transparent;
+}
+
+
+/*
+VCFootView::section:!active {
+    background: transparent;
+    border: none;
+    border-right: 5px solid transparent;
+}
+/*
+
+/*  --------------------------------------------------------------------------------
+        QTitanGrid - REJILLA AVANZADA
+    --------------------------------------------------------------------------------
+*/
+
+
+/* MARCO DE LA REJILLA */
+
+Qtitan--Grid {
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid #3F51B5;
+    border-style: none;
+    gridline-color: #DFDFDF;
+    /* COLOR DE FONDO Y FONDO PAR DE FILAS */
+    background-color: #FFFFFF;
+    /* Fondo de la rejilla */
+    alternate-background-color: #FFFFFF;
+    /* Color de las líneas impares */
+    /* COLOR DE LA FILA SELECCIONADA */
+    selection-color: #808080;
+    /* Color del texto del registro seleccionado */
+    selection-background-color: #DFDFDF;
+    /* Background del registro seleccionado */
+    /* AERA DE LOS AGRUPAMIENTOS */
+    qproperty-headerHeight: 30;
+    /* Altura de la cabecera de agrupación */
+    qproperty-headerTextColor: #808080;
+    /* Texto informativo de la cabecera de agrupamiento */
+    qproperty-headerBrush: #FFFFFF;
+    /* Color de la franja de agrupamiento */
+    qproperty-headerBorderColor: #FFFFFF;
+    /* Color del borde */
+    qproperty-headerBorderSize: 0;
+    /* Tamaño del borde */
+    qproperty-headerBorderStyle: dot-dash;
+    /* La fuente se puede establecer de dos formas. Con headerTextFont que requiere un formato concreto
+        o indicando la familia y el tamaño en dos propiedades*/
+    /*qproperty-headerTextFont: "Verdana,-1,20,5,0,0,0,0,0,0";*/
+    qproperty-headerTextFontSize: 12;
+    /* Tamaño de la fuente */
+    qproperty-headerTextFontFamily: "Verdana";
+    /* AGRUPAMIENTOS */
+    qproperty-groupColorLevel0: #757575;
+    /* Color de fondo según el nivel de agrupamiento */
+    qproperty-groupColorLevel1: #3F51B5;
+    qproperty-groupColorLevel2: #DFDFDF;
+    qproperty-groupColorLevel3: #3F3F3F;
+    qproperty-groupColorLevel4: magenta;
+    qproperty-groupColorLevel5: white;
+    qproperty-groupColorLevel6: white;
+    qproperty-groupColorLevel7: white;
+    /* NIVEL DE DESPLIEGUE DE AGRUPAMIENTOS */
+    qproperty-keepGroupLevelExpanded: 3;
+    /* PIES DE GRUPO */
+    qproperty-summaryGroupItemTextColor: red;
+    /* No está operativo en la versión 26 */
+    qproperty-summaryGroupItemBackgroundColor: #FFFFFF;
+    qproperty-summaryGroupItemHeight: 30;
+    qproperty-summaryGroupItemBorderColor: #3F3F3F;
+    qproperty-summaryGroupItemBorderSize: 1;
+    qproperty-summaryGroupItemBorderStyle: native;
+    /* PIES DE REJILLA */
+    qproperty-summaryItemTextColor: blue;
+    /* No está operativo en la versión 26 */
+    qproperty-summaryItemBackgroundColor: #FFFFFF;
+    qproperty-summaryItemHeight: 30;
+    qproperty-summaryItemBorderColor: #3F51B5;
+    qproperty-summaryItemBorderSize: 1;
+    qproperty-summaryItemBorderStyle: native;
+    /* ICONOS */
+    qproperty-sortAscendingIcon: url($sysCacheClientPath/ARR.png);
+    qproperty-sortDescendingIcon: url($sysCacheClientPath/ABA.png);
+    qproperty-focusRowIndicatorIcon: url($sysCacheClientPath/DER.png);
+    qproperty-columnFilterToolIcon: url($sysCacheClientPath/FLT_ON.png);
+    qproperty-columnFilterToolBoldIcon: url($sysCacheClientPath/FLT_OFF.png);
+    qproperty-filterCheckBoxOnIcon: url($sysCacheClientPath/ARR.png);
+    qproperty-filterCheckBoxOffIcon: url($sysCacheClientPath/ARR.png);
+    qproperty-editorPopupOkIcon: url($sysCacheClientPath/ARR.png);
+    qproperty-editorPopupCancelIcon: url($sysCacheClientPath/CRR.png);
+    qproperty-editorPopupCrossIcon: url($sysCacheClientPath/ARR.png);
+    /* LÍNEA DE COLUMNAS INMOVILIZADAS */
+    qproperty-fixedSeparatorWidth: 3;
+    qproperty-fixedSeparatorColor: #3F51B5;
+    qproperty-fixedSeparatorStyle: dot-dash;
+}
+
+
+/* CABECERA Y BANDA */
+
+Qtitan--Grid::section {
+    color: #3F3F3F;
+    font-weight: bold;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+/* CABECERA CON FOCO */
+
+Qtitan--Grid::section:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #3F51B5;
+}
+
+
+/* CELDAS */
+
+Qtitan--Grid::item {
+    /*background-color: red;*/
+    /*Se aplica sobre los posibles colores asignados genéricamente en la rejilla al fondo o fondo par*/
+}
+
+
+/* CELDA CON FOCO */
+
+Qtitan--Grid::item:focus {
+    background-color: #DFDFDF;
+    /*Se aplica sobre los posibles colores asignados genéricamente en la rejilla al fondo o fondo par*/
+    border: 1px solid #FFFFFF;
+}
+
+
+/* MARCO DEL FOCO Y CABECERA SELECCIONADA DE AGRUPACIÓN */
+
+Qtitan--Grid:focus {
+    outline: 1px dotted #3F51B5;
+}
+
+
+/* FILTRO RÁPIDO */
+
+Qtitan--Grid>Qtitan--GridColumnFilterPopup,
+Qtitan--Grid>Qtitan--GridColumnFilterPopup * {
+    background-color: #FFFFFF;
+    color: #3F3F3F;
+    font: 12pt "Verdana";
+}
+
+
+/* SELECCIÓN DE CAMPOS */
+
+Qtitan--Grid>Qtitan--GridColumnsQuickCustomization,
+Qtitan--Grid>Qtitan--GridColumnsQuickCustomization * {
+    background-color: #FFFFFF;
+    color: #3F3F3F;
+    font: 12pt "Verdana";
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QToolBar - BARRA DE HERRAMIENTAS
+        -------------------------------------------------------------------------------- */
+
+QToolBar {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    spacing: 10px;
+    qproperty-iconSize: 18px;
+}
+
+QToolButton {
+    background-color: #FFFFFF;
+    border: 1px solid #DFDFDF;
+    color: #808080;
+    margin-right: 0px;
+    min-height: 18px;
+    min-width: 18px;
+    padding: 5px;
+    qproperty-iconSize: 18px;
+}
+
+QToolButton:hover {
+    border: 1px solid #3F3F3F;
+}
+
+QToolButton:focus {
+    border: 2px solid #3F51B5;
+}
+
+QToolButton:pressed {
+    border: 2px solid #3F51B5;
+}
+
+QToolButton:disabled {
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+QToolButton::menu-indicator {
+    background-color: transparent;
+    color: transparent;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QTooltip - TOOLTIP
+        -------------------------------------------------------------------------------- */
+
+QToolTip {
+    align: center;
+    background-color: #DFDFDF;
+    border: 1px solid #DFDFDF;
+    color: #3F3F3F;
+    vertical-align: center;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QTreeView - ARBOL VISOR Y MENU ARBOLADO
+        -------------------------------------------------------------------------------- */
+
+QTreeView {
+    outline: 0;
+    background-color: #FFFFFF;
+    selection-background-color: transparent;
+    show-decoration-selected: 1;
+}
+
+QTreeView::item {
+    border-right: 0;
+    color: #808080;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+}
+
+QTreeView::item:hover {
+    border-color: transparent;
+    color: #461154;
+}
+
+QTreeView::item:selected {
+    color: #3F51B5;
+}
+
+
+/*  --------------------------------------------------------------------------------
+        QCalendarWidget - CALENDARIO
+        QWidget#qt_calendar - CALENDARIO
+        -------------------------------------------------------------------------------- */
+
+QWidget#qt_calendar_navigationbar {
+    background-color: #FFFFFF;
+    qproperty-gridVisible: false;
+}
+
+QWidget#qt_calendar_nextmonth {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    qproperty-icon: url($sysCacheClientPath/DER.png);
+}
+
+QWidget#qt_calendar_prevmonth {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    qproperty-icon: url($sysCacheClientPath/IZQ.png);
+}
+
+QWidget#qt_calendar_monthbutton,
+QWidget#qt_calendar_yearbutton {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+QCalendarWidget {
+    min-width: 300px;
+    min-height: 260px;
+}
+
+QCalendarWidget QSpinBox {
+    width: 35px;
+    font-size: 12px;
+    color: #3F3F3F;
+    background-color: #FFFFFF;
+}
+
+QCalendarWidget QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 30px;
+}
+
+QCalendarWidget QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 30px;
+}

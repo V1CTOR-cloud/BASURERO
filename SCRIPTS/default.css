@@ -1,0 +1,85 @@
+/*
+    FICHERO CSS EJEMPLO y prueba de estilos en velneo
+*/
+
+
+/*
+    BOTONES
+*/
+
+QPushButton {
+    background-color: #5bc0de;
+    border: 1px solid #0275d8;
+    color: #141414;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: upercase;
+    width: 90;
+    qproperty-iconSize: 18px;
+}
+
+QPushButton:hover {
+    border: 1px solid #3F3F3F;
+}
+
+QPushButton:focus {
+    border: 1px solid #3F51B5;
+}
+
+QPushButton:pressed {
+    border: 1px solid #3F51B5;
+}
+
+QPushButton:disabled {
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+}
+
+QPushButton::menu-indicator {
+    image: none;
+    width: 0px;
+}
+
+
+/* BOTÓN ACEPTAR */
+
+QPushButton#BTN_ACE {
+    background-color: #5cb85c;
+    color: #141414;
+}
+
+QPushButton:hover#BTN_ACE {
+    background-color: #429e42;
+    color: #141414;
+}
+
+QPushButton:focus#BTN_ACE {
+    background-color: #77da77;
+    color: #141414;
+}
+
+QPushButton:pressed#BTN_ACE {
+    background-color: #4db14d;
+    color: #141414;
+}
+
+QPushButton:disabled#BTN_ACE {
+    background-color: #3F3F3F;
+    border: 1px solid #3F3F3F;
+    color: #808080;
+}
+
+
+/* BOTÓN AMPLIAR, BOTÓN BUSCAR, BOTÓN MENU y BOTÓN REDUCIR */
+
+QPushButton#BTN_AMP,
+QPushButton#BTN_AYU,
+QPushButton#BTN_BUS,
+QPushButton#BTN_MEN,
+QPushButton#BTN_RED {
+    border-radius: 0px;
+    qproperty-iconSize: 18px;
+}
