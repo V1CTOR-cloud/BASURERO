@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=sN93DRYkCO8 animacion molonga
 https://www.youtube.com/watch?v=z_vvY7YX3so cambia colores anim
 https://www.hongkiat.com/blog/svg-animations/ svg animations
 custom cursor
-
+https://www.awwwards.com/sites/sophias sophias page
 
 
 https://codepen.io/aaroniker/pen/WNvjpxd bouncing input
