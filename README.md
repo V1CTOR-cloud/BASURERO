@@ -12,3 +12,5 @@ https://www.youtube.com/watch?v=Rib69h2DOxg countdown page
 https://www.youtube.com/watch?v=Nt70Ld0dJCM parallax efect https://www.youtube.com/watch?v=0PaA82YzNOE
 https://www.youtube.com/watch?v=sN93DRYkCO8 animacion molonga
 https://www.youtube.com/watch?v=z_vvY7YX3so cambia colores anim
+https://www.hongkiat.com/blog/svg-animations/ svg animations
+custom cursor
