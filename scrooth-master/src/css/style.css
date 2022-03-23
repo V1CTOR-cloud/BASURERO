@@ -1,0 +1,25 @@
+body {
+  background: palevioletred;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 15px;
+  box-shadow: 0 0 35px black;
+}
+
+.wrapper p {
+  font-size: 1.3em;
+  font-family: 'Tahoma';
+}
+
+.link, .link2 {
+  background: green;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Tahoma';
+}
