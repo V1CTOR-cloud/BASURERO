@@ -18,3 +18,6 @@ custom cursor
 
 
 https://codepen.io/aaroniker/pen/WNvjpxd bouncing input
+
+https://codepen.io/clementGir/pen/RQqvQx custom cursor circle CSS HTML JS
+https://www.hongkiat.com/blog/scrolling-effects-js-libraries/ librerias para scroll
