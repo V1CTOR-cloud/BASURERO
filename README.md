@@ -20,4 +20,18 @@ https://www.awwwards.com/sites/sophias sophias page
 https://codepen.io/aaroniker/pen/WNvjpxd bouncing input
 
 https://codepen.io/clementGir/pen/RQqvQx custom cursor circle CSS HTML JS
+https://codepen.io/GreenSock/pen/xxpbORN cursor circle with gsap
 https://www.hongkiat.com/blog/scrolling-effects-js-libraries/ librerias para scroll
+
+https://codepen.io/GreenSock/pen/ExbJZjw usar horizontal scroll gsap
+https://codepen.io/GreenSock/pen/RwjvzNm smooth scoll gsap
+https://codepen.io/GreenSock/pen/MWOLamV dragable slider
+https://codepen.io/GreenSock/pen/wvPRJyR animación aparación gsap
+https://codepen.io/GreenSock/pen/YzERjbQ change color nav scroll trigger
+https://codepen.io/GreenSock/pen/abVQEwJ disappear nav bar gsap
+https://codepen.io/GreenSock/pen/LYOJbVK drag navbar
+https://codepen.io/GreenSock/pen/bGYKXXo aparición gsap
+https://codepen.io/GreenSock/pen/QWOxeag slider infinite
+https://codepen.io/GreenSock/pen/xxPzELB menu 
+https://codepen.io/GreenSock/pen/JjOvaqd timeLine scroll
+
