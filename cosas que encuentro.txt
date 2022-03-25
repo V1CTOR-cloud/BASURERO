@@ -1,0 +1,26 @@
+http://paperjs.org/examples/future-splash/ svg ondas super chulo
+https://www.svgrepo.com/vectors/bell/ galleria
+https://cocomaterial.com/ svg sencillo
+https://freeicons.io/filter/popular/free/all/ svg de todos los iconos
+https://game-icons.net/ iconos para juegos
+https://iconduck.com/ iconos gratis
+https://www.youtube.com/watch?v=fR0tHI0nFYk&list=PLDyQo7g0_nsXEOxGlAgccV8fu-cHZnI5B&index=3 scroll avioncito
+https://www.youtube.com/watch?v=q5NWTXmR8iU tuto gsap
+https://www.youtube.com/results?search_query=gsap+tutorial tutos gsap
+https://www.youtube.com/watch?v=KlQ4PrMkR8s&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=16 cursor especial gsap
+https://www.youtube.com/watch?v=-zUA9rId10Y&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=19 goey anim gsap
+
+https://www.youtube.com/watch?v=L2r_nJs8GhI&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=20 animated nav gsap
+
+https://www.youtube.com/watch?v=bUgUOyKHZb4&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=24 full page
+https://www.youtube.com/watch?v=oVdJTCqN9Fg&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=26 cambia color navbar scroll gsap
+https://www.youtube.com/watch?v=C3AyyRE8Qus&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=29 carrousel gsap + swiper js
+https://www.youtube.com/watch?v=xjaVWgkeoVU&list=PLSHr4gkVOXTIaeP1dGNRlCUUTkF1Xxyiw&index=30 landing page anim gsap
+https://www.youtube.com/watch?v=7swDDQaZVi0&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=61 gsap landing page
+https://www.youtube.com/watch?v=TFfLMVcAK0Q&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=72 responsive block nav
+https://www.youtube.com/watch?v=LmsRtJFxJ3g&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=74 landing gsap
+https://www.youtube.com/watch?v=U5T5uszQOMk&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=77 landing
+
+https://www.youtube.com/watch?v=ergc889Jghc&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=101 transitions gsap + barba js
+https://www.youtube.com/watch?v=IGfUSbVDxT0&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=102 page transitions
+https://www.youtube.com/watch?v=ABzBk1HYrnY reveal image gsap
