@@ -1,0 +1,50 @@
+Crear una pantalla con el TIMELINE con el ROADMAP de la aplicación:
+
+	- DISEÑO CHAT + NUEVAS PANTALLAS
+		+ Chat 
+		+ Ley de protección de datos
+		+ TimeLine
+
+	- INICIO DE LA APLICACIÓN
+	- PROBLEMAS
+	- SOLUCIONES
+	- IMPLEMENTACIONES
+	- AMPLIACIONES
+	- ASPIRACIONES
+	- QUIENES SOMOS
+	- PORQUE Y PARA QUE DAILYSENSE
+	- A FUTURO...
+
+DAYLISENSE, Ampliación:
+
+	- Pantalla de protección de datos
+	- Protección de datos en la BBDD
+	- Encriptado MD5
+	- CHAT
+	- MEJORAR INTERFAZ + Animaciones
+	- RESPONSIVE
+
+PRESENTACIÓN:
+	
+	- POWER POINT con colores DailySense
+		+ Explicación de porque se necesitan la ampliación,
+		+ Porque los datos deben de estar encriptados,
+		+ ¿Porque un chat, si ya existe whatsApp?
+		+ Mejora de la interfaz
+		+ Responsive, demo y funcionamiento
+		+ Preguntas
+		+ Muchas gracias por su atención
+	
+	- VESTIMENTA:
+		+ Vaqueros y camisa negra o bien guapo
+
+DESARROLLO:
+
+	- LIBRERIAS:
+		+ UI KITTEN
+		+ NATIVE BASE
+		+ TIMELINE
+		+ ALGUNA PARA EL CHAT 
+
+( OPCIONAL ):
+	INDEX ABUELOS
