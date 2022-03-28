@@ -1,3 +1,5 @@
+	DAVID
+
 http://paperjs.org/examples/future-splash/ svg ondas super chulo
 https://www.svgrepo.com/vectors/bell/ galleria
 https://cocomaterial.com/ svg sencillo
@@ -25,3 +27,11 @@ https://www.youtube.com/watch?v=U5T5uszQOMk&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_z
 https://www.youtube.com/watch?v=ergc889Jghc&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=101 transitions gsap + barba js
 https://www.youtube.com/watch?v=IGfUSbVDxT0&list=PL8kd7mPFdvbhpThk9H09UkKbVMXd_zM4_&index=102 page transitions
 https://www.youtube.com/watch?v=ABzBk1HYrnY reveal image gsap
+https://www.youtube.com/watch?v=CrSC1ZA9j0M Blog tuto
+https://www.youtube.com/watch?v=PK_mQwVJxkQ blog tuto 2
+https://dev.to/kunaal438/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di blog tuto + servidor
+
+	DAILYSENSE
+
+
+https://www.youtube.com/watch?v=qo7xtBCh18o chat tuto expo
